@@ -3,7 +3,7 @@ function isScrolledIntoView(elem) {
   var docViewFromBottom = docViewFromTop + $(window).height();
 
   var elemTop = $(elem).offset().top;
-  var elemBottom = elemTop + $(elem).height();
+  var elemBottom = elemTop + elem.height();
 
   return ((elemBottom >= docViewFromTop) && (elemTop <= docViewFromBottom));
 }
@@ -22,7 +22,7 @@ $(window).scroll(function(){
 
   $("#item").css({
     top: function(index, value) {
-      return 350 - $(window).scrollTop() * 1.3;
+      return 1550 - $(window).scrollTop() * 0.6;
     }
   });
 });
