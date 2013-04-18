@@ -97,8 +97,8 @@ article {
   z-index: 900;
 }
 
-article#description {
-  margin: 800px 0 0 -242px;
+article.description {
+  margin: 400px 0 0 -242px;
   width: 425px;
   border: 1px #fff solid;
   outline: 10px #222 solid;
@@ -106,6 +106,6 @@ article#description {
   color: #fff;
 }
 
-article#description h3 {
+article.description h3 {
   color: #fff;
 }
