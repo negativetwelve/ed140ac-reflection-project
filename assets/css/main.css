@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  text-align: center;
+  font-family: adrianna-extended-1,adrianna-extended-2, sans-serif;
+  font-size: 72px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 5px;
+  line-height: 72px;
+}
+
+h2 {
+  text-align: center;
+  font-family: baskerville, caslon, serif;
+  color: #111;
+  text-transform: none;
+  font-weight: 100;
+  font-size: 26px;
+  font-style: italic;
+  margin: 0 0 10px 0;
+}
+
+#wrapper {
+  overflow: hidden;
+  min-width: 800px;
+}
+
+section {
+  margin: 0;
+}
+
+section#intro {
+  background: url(Fracking/noise.png) #79c5ce;
+  height: 1600px;
+  width: 100%;
+  padding: 200px 0 0 0;
+  position: relative;
+  z-index: 200;
+}
