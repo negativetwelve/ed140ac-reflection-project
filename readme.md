@@ -1,7 +1,11 @@
 # Education 140AC Reflection Project
 
+### To setup everything
+
+    bundle install
+
 ### To start the server
 
-    python -m SimpleHTTPServer
+    rackup
 
-Go to localhost:8000 on your computer.
+Go to localhost:9292 on your computer.
