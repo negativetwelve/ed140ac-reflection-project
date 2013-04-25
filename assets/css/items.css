@@ -4,10 +4,37 @@
   left: 150px;
 }
 
+#house {
+  height: 600px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: brown;
+  z-index: 200;
+}
+
+#driveway {
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+}
+
 #road {
-  height: 2000px;
+  height: 4000px;
   width: 400px;
   background-color: black;
   margin-left: auto;
   margin-right: auto;
+  color: white;
+}
+
+figure#bus {
+  width: 150px;
+  height: 450px;
+  background-color: yellow;
+  color: black;
+  position: fixed;
+  top: 200px;
 }

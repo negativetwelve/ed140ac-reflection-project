@@ -85,6 +85,12 @@ section#bus_stop {
   background: #8ba341;
   height: 3400px;
   width: 100%;
+  z-index: -1;
+}
+
+section#between_sky {
+  background-color: #7D9338;
+  z-index: 200;
 }
 
 article {
@@ -107,4 +113,8 @@ article.description {
 
 article.description h3 {
   color: #fff;
+}
+
+figure {
+  z-index: 101;
 }
