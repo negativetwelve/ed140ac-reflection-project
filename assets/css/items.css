@@ -3,3 +3,11 @@
   top: 1550px;
   left: 150px;
 }
+
+#road {
+  height: 2000px;
+  width: 400px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
