@@ -17,6 +17,12 @@
   z-index: 200;
 }
 
+#house2 {
+  position: absolute;
+  left: 200px;
+  top: 500px;
+}
+
 #driveway {
   width: 500px;
   height: 300px;
@@ -45,4 +51,12 @@ figure#bus {
 .bus_figure {
   height: 500px;
   margin-left: -140px;
+}
+
+.small_image {
+  width: 200px;
+}
+
+.medium_image {
+  width: 500px;
 }

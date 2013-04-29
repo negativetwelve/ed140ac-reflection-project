@@ -111,7 +111,18 @@ article.description {
   color: #fff;
 }
 
-article.description h3 {
+article.left_description {
+  margin: 200px 0 0 -242px;
+  width: 425px;
+  border: 1px #fff solid;
+  outline: 10px #222 solid;
+  background: #222;
+  color: #fff;
+  left: 18%;
+}
+
+article.description h3,
+article.left_description h3 {
   color: #fff;
 }
 

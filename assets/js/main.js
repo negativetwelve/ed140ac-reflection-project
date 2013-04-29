@@ -11,7 +11,9 @@ function isScrolledIntoView(elem) {
 $(document).ready(function() {
   var cloud3 = $('#cloud3');
   var ellDescription = $('#ell_description');
-  
+
+  var house2 = $('#house2');
+  var ellDescription2 = $('#ell_description2');
 
   $(window).scroll(function() {
     if(isScrolledIntoView(cloud3)) {
@@ -19,7 +21,14 @@ $(document).ready(function() {
     } else {
       ellDescription.fadeOut('500');
     }
+
+    if(isScrolledIntoView(house2)) {
+      ellDescription2.fadeIn('500');
+    } else {
+      ellDescription2.fadeOut('500');
+    }
   });
+
 
   $(window).scroll(function(){
     $("#cloud3").css({
