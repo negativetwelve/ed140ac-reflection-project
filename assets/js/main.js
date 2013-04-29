@@ -8,21 +8,25 @@ function isScrolledIntoView(elem) {
   return ((elemBottom >= docViewFromTop) && (elemTop <= docViewFromBottom));
 }
 
-var cloud3 = $('#cloud3');
-var ellDescription = $('#ell_description');
-$(window).scroll(function() {
-  if(isScrolledIntoView(cloud3)) {
-    ellDescription.fadeIn('500'); 
-  } else {
-    ellDescription.fadeOut('500')
-  }
-});
+$(document).ready(function() {
+  var cloud3 = $('#cloud3');
+  var ellDescription = $('#ell_description');
+  
 
-$(window).scroll(function(){
-
-  $("#cloud3").css({
-    top: function(index, value) {
-      return 1550 - $(window).scrollTop() * 0.6;
+  $(window).scroll(function() {
+    if(isScrolledIntoView(cloud3)) {
+      ellDescription.fadeIn('500'); 
+    } else {
+      ellDescription.fadeOut('500');
     }
   });
+
+  $(window).scroll(function(){
+    $("#cloud3").css({
+      top: function(index, value) {
+        return 1550 - $(window).scrollTop() * 0.6;
+      }
+    });
+  });
+
 });
