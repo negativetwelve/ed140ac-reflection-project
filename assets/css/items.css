@@ -19,13 +19,13 @@
 
 #house2 {
   position: absolute;
-  left: -50px;
+  left: -250px;
   top: 500px;
 }
 
 #house3 {
   position: absolute;
-  right: -50px;
+  right: -250px;
   top: 1000px;
 }
 
@@ -51,7 +51,7 @@ figure#bus {
   height: 450px;
   color: black;
   position: fixed;
-  top: 200px;
+  top: 20px;
 }
 
 .bus_figure {
