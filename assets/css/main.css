@@ -118,11 +118,26 @@ article.left_description {
   outline: 10px #222 solid;
   background: #222;
   color: #fff;
-  left: 18%;
+  left: 300px;
+}
+
+article.right_description {
+  margin: 200px 0 0 -242px;
+  width: 425px;
+  border: 1px #fff solid;
+  outline: 10px #222 solid;
+  background: #222;
+  color: #fff;
+  left: 80%;
+}
+
+article#ell_description3 {
+  margin-top: 600px;
 }
 
 article.description h3,
-article.left_description h3 {
+article.left_description h3,
+article.right_description h3 {
   color: #fff;
 }
 

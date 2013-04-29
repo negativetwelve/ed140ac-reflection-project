@@ -23,6 +23,12 @@
   top: 500px;
 }
 
+#house3 {
+  position: absolute;
+  right: 200px;
+  top: 1000px;
+}
+
 #driveway {
   width: 500px;
   height: 300px;

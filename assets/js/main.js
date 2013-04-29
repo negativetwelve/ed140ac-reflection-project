@@ -15,6 +15,9 @@ $(document).ready(function() {
   var house2 = $('#house2');
   var ellDescription2 = $('#ell_description2');
 
+  var house3 = $('#house3');
+  var ellDescription3 = $('#ell_description3');
+
   $(window).scroll(function() {
     if(isScrolledIntoView(cloud3)) {
       ellDescription.fadeIn('500'); 
@@ -27,6 +30,13 @@ $(document).ready(function() {
     } else {
       ellDescription2.fadeOut('500');
     }
+
+    if(isScrolledIntoView(house3)) {
+      ellDescription3.fadeIn('500');
+    } else {
+      ellDescription3.fadeOut('500');
+    }
+
   });
 
 
