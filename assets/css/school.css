@@ -1,6 +1,28 @@
-#full_screen {
-  background-color: #79c5ce;
-  min-height: 2000px;
+.division {
+  min-height: 400px;
+  text-align: center;
 }
 
+#negative_ell {
+  background-color: #79c5ce;
+}
 
+#conference {
+  background-color: #F1C40F;
+}
+
+#dual_language {
+  background-color: #9B59B6;
+}
+
+#playground {
+  background-color: #E74C3C;
+}
+
+#with_oski {
+  background-color: #2ECC71;
+}
+
+.divided_image {
+  height: 300px;
+}
