@@ -8,6 +8,10 @@ function isScrolledIntoView(elem) {
   return ((elemBottom >= docViewFromTop) && (elemTop <= docViewFromBottom));
 }
 
+function redirectPage() {
+  window.location = link;
+}
+
 $(document).ready(function() {
   var cloud3 = $('#cloud3');
   var ellDescription = $('#ell_description');
@@ -18,7 +22,7 @@ $(document).ready(function() {
   var house3 = $('#house3');
   var ellDescription3 = $('#ell_description3');
 
-  var bottom = $('#bottom');
+  var school = $('#school');
 
   $(window).scroll(function() {
     if(isScrolledIntoView(cloud3)) {
@@ -39,8 +43,9 @@ $(document).ready(function() {
       ellDescription3.fadeOut('500');
     }
 
-    if(isScrolledIntoView(bottom)) {
-      
+    if(isScrolledIntoView(school)) {
+      link = '/school';
+      $("body").fadeOut(1000, redirectPage);
     }
 
   });

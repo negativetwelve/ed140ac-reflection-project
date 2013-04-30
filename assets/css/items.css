@@ -66,3 +66,8 @@ figure#bus {
 .medium_image {
   width: 500px;
 }
+
+#school {
+  background-color: black;
+  height: 100px;
+}
