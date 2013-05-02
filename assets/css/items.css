@@ -80,9 +80,11 @@ figure#bus {
 }
 
 .bus_stop_image {
-  margin-left: -200px;
-  margin-bottom: -50px;
-  width: 1350px;
+  //margin-left: -200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -5px;
+  width: 500px;
 }
 
 .bottom_image {
@@ -90,4 +92,26 @@ figure#bus {
   width: 800px;
   margin-top: -350px;
   margin-bottom: -100px;
+}
+
+@media (max-width: 1365px) and (min-width: 960px) {
+  .bus_stop_image {
+  }
+}
+
+@media (max-width: 960px) {
+  .bus_stop_image {
+  }
+}
+
+.busses {
+  position: absolute;
+  left: -250px;
+  width: 400px;
+}
+
+.busses2 {
+  position: absolute;
+  right: -250px;
+  width: 400px;
 }
