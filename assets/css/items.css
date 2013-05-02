@@ -29,6 +29,12 @@
   top: 1000px;
 }
 
+#people_talking {
+  position: absolute;
+  right: 0;
+  top: 1800px;
+}
+
 #driveway {
   width: 500px;
   height: 300px;
@@ -68,6 +74,20 @@ figure#bus {
 }
 
 #school {
-  background-color: black;
-  height: 100px;
+  background-color: #8ba341;
+  //height: 1000px;
+  text-align: center;
+}
+
+.bus_stop_image {
+  margin-left: -200px;
+  margin-bottom: -50px;
+  width: 1350px;
+}
+
+.bottom_image {
+  margin-bottom: 1200px;
+  width: 800px;
+  margin-top: -350px;
+  margin-bottom: -100px;
 }

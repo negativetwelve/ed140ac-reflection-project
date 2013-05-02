@@ -22,7 +22,10 @@ $(document).ready(function() {
   var house3 = $('#house3');
   var ellDescription3 = $('#ell_description3');
 
-  var school = $('#school');
+  var bottom = $('#this_is_the_bottom');
+
+  var people = $("#people_talking");
+  var ellDescription4 = $("#ell_description4");
 
   $(window).scroll(function() {
     if(isScrolledIntoView(cloud3)) {
@@ -43,7 +46,13 @@ $(document).ready(function() {
       ellDescription3.fadeOut('500');
     }
 
-    if(isScrolledIntoView(school)) {
+    if(isScrolledIntoView(people)) {
+      ellDescription4.fadeIn('500');
+    } else {
+      ellDescription4.fadeOut('500');
+    }
+
+    if(isScrolledIntoView(bottom)) {
       link = '/school';
       $("body").fadeOut(1000, redirectPage);
     }
@@ -55,6 +64,12 @@ $(document).ready(function() {
     $("#cloud3").css({
       top: function(index, value) {
         return 1550 - $(window).scrollTop() * 0.6;
+      }
+    });
+
+    $("#people_talking").css({
+      right: function(index, value) {
+        return -1300 + $(window).scrollTop() * 0.3;
       }
     });
   });

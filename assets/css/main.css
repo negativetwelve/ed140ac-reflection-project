@@ -89,8 +89,12 @@ section#bus_stop {
 }
 
 section#between_sky {
-  background-color: #7D9338;
+  background-color: #8ba341;
   z-index: 200;
+}
+
+#bus_stop {
+  text-align: center;
 }
 
 article {
@@ -133,6 +137,10 @@ article.right_description {
 
 article#ell_description3 {
   margin-top: 800px;
+}
+
+article#ell_description4 {
+  margin-top: 1450px;
 }
 
 article.description h3,
